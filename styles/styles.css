@@ -218,11 +218,11 @@ background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 margin: 0px, auto;
 box-sizing: border-box;
 flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 64px 100px 64px 100px;
+justify-content: center;
+align-items: center;
+padding: 64px 48px 64px 48px;;
 border-radius: 16px;
-margin: 32px auto;
+
 }
 .support-head{
     color: rgb(255, 255, 255);
@@ -241,17 +241,20 @@ letter-spacing: 0%;
 text-align: center;
 }
 .feedback{
-    box-sizing: border-box;
-    color: rgba(13, 19, 33, 0.4);
-border-radius: 8px;
 background: rgb(255, 255, 255);
 margin: 0 16px;
 align-items: center;
-padding: 5px 8px;
+padding: 17px 20px 17px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 10px;
+justify-content: center;
 }
 .submit{
     border-radius: 8px;
 background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
+margin: 0 16px;
 }
 .input{
     display: flex;
