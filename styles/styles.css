@@ -49,7 +49,7 @@ margin: 32px 0px;
 font-size: 16px;
 font-weight: 600;
 text-align: center;
-
+padding: 12px 20px;
 }
 /* banner styles */
 .banner{
@@ -155,17 +155,17 @@ border-radius: 16px;
 .skill-container{
     display: flex;
 flex-direction: row;
-justify-content: center;
-align-items: center;
+justify-content: space-around;
+align-items: left;
 padding: 0px;
-margin: 48px 0px;
+margin: 48px auto;
 background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
  .skill1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items:flex-start;
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
@@ -205,4 +205,20 @@ margin: 8px 0px;
     align-items: center;
     justify-content: center;
  }
+ /* I need your support style */
+ .background{
+background-image: url('../B10A1-Challenge-Begins-main/assets/handshake.jpg') ;
+max-width: 1140px; 
+position: absolute;
+background-repeat: no-repeat;
+background-size: cover;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+margin: 0px, auto;
+box-sizing: border-box;
+padding: 0px;
+position: absolute;
+}
+.support{
+    text-align: center;
+}
 
