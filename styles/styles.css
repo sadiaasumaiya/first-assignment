@@ -209,16 +209,56 @@ margin: 8px 0px;
  .background{
 background-image: url('../B10A1-Challenge-Begins-main/assets/handshake.jpg') ;
 max-width: 1140px; 
+display: flex;
+height: 314px;
 position: absolute;
 background-repeat: no-repeat;
 background-size: cover;
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 margin: 0px, auto;
 box-sizing: border-box;
-padding: 0px;
-position: absolute;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 100px 64px 100px;
+border-radius: 16px;
+margin: 32px auto;
 }
-.support{
+.support-head{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
     text-align: center;
+}
+.support-des{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.feedback{
+    box-sizing: border-box;
+    color: rgba(13, 19, 33, 0.4);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin: 0 16px;
+align-items: center;
+padding: 5px 8px;
+}
+.submit{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.input{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin: 24px 0px;
 }
 
