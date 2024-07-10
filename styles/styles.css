@@ -130,6 +130,18 @@ margin: 16px 0px;
 opacity: 0.7;
 text-align: left;
 }
+.my-inspiration{
+    display: flex;
+    max-width: 1140px;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    margin: 48px auto;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
 .inspiration-sec{
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -137,6 +149,7 @@ text-align: left;
     margin: 16px 0px;
     opacity: 0.7;
     text-align: center;
+    margin-bottom: 24px;
 }
 /* card style */
 .skill-container{
